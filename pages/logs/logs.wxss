@@ -1,0 +1,43 @@
+page{
+  background: #fff;
+  padding-top: 60rpx;
+  font-size: 12px;
+}
+.top-txt{
+  width: 750rpx;
+  height: 80rpx;
+  color: #000;
+  line-height: 80rpx;
+  padding-left: 20rpx;
+}
+.togal{
+  height: 100rpx;
+  width: 750rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+}
+.togal-left{
+  width: 200rpx;
+  background: #fff;
+  height: 100rpx;
+  line-height: 110rpx;
+  text-align: center;
+  margin-left: 100rpx;
+}
+.togal-right{
+  width: 200rpx;
+  background: #fff;
+  height: 100rpx;
+  line-height: 110rpx;
+  text-align: center;
+  margin-right: 100rpx;
+}
+.content{
+  width: 750rpx;
+  background: #eee;
+}
+.bottom-style{
+  border-bottom: 4px solid green;
+}

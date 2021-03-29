@@ -1,0 +1,26 @@
+<!--logs.wxml-->
+<view class="logs">
+  <view class="top-txt">
+    奈雪的茶
+  </view>
+  <!-- 头部切换 -->
+  <view class="togal">
+    <view bindtap="togalanother" id="{{left}}" class="{{current?'bottom-style togal-left':'togal-left'}}">
+      当前订单
+    </view>
+    <view bindtap="togalanother" class="{{current?'togal-right':'bottom-style togal-right'}}">
+      历史订单
+    </view>
+  </view>
+  <!-- 主要内容 -->
+  <view class="content">
+    <view wx:if="{{current}}">
+      <!-- 当前订单 -->
+      11111111
+    </view>
+    <view wx:else>
+      <!-- 历史订单 -->
+      22222222
+    </view>
+  </view>
+</view>

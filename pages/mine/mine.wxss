@@ -1,0 +1,73 @@
+/* pages/mine/mine.wxss */
+page{
+  background: #eee;
+  font-size: 12px;
+}
+.back-box{
+  width: 750rpx;
+  height: 500rpx;
+  position: relative;
+}
+.back-img{
+  width: 750rpx;
+  height: 500rpx;
+}
+.yuan{
+  position: absolute;
+  width: 150rpx;
+  height: 70rpx;
+  bottom: 220rpx;
+  right: 20rpx;
+  background: #fff;
+  border-radius: 20px;
+  text-align: center;
+  line-height: 70rpx;
+  color: green;
+}
+.user-info{
+  height:350rpx;
+  width: 710rpx;
+  background: #fff;
+  border-radius: 10px;
+  margin-left: 20rpx;
+  position: absolute;
+  top: 400rpx;
+}
+.my-serve{
+  width: 710rpx;
+  height: 400rpx;
+  background: #fff;
+  margin-top: 290rpx;
+  margin-left: 20rpx;
+  border-radius: 10px;
+  position: relative;
+  box-sizing: border-box;
+  padding-top: 100rpx;
+}
+.nai-txt{
+  text-align: center;
+  margin-top: 30rpx;
+  color: #ccc;
+}
+.serve-txt{
+  position: absolute;
+  top: 40rpx;
+  left: 20rpx;
+}
+.row{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+  margin-bottom: 20rpx;
+}
+.item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.item-img{
+  height: 80rpx;
+  width: 80rpx;
+}

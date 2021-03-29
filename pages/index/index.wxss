@@ -1,0 +1,160 @@
+/**index.wxss**/
+page{
+  background: #eee;
+}
+.txt_top{
+  color: #fff;
+  position: absolute;
+  padding-left: 30rpx;
+  z-index: 99;
+}
+.txt_top_1{
+  font-size: 10px;
+  top: 60rpx;
+}
+.txt_top_2{
+  font-size: 8px;
+  top: 110rpx;
+}
+.screen{
+  height: 450rpx;
+  width: 750rpx;
+}
+.home-swiper{
+  height: 450rpx;
+  width: 750rpx;
+}
+.slide-image{
+  height: 450rpx;
+  width: 750rpx;
+}
+.box{
+  background: #fff;
+  width: 720rpx;
+  height: 300rpx;
+  border-radius: 5px;
+  position: absolute;
+  margin-top: -20px;
+  z-index: 999;
+  margin-left: 15rpx;
+  display: flex;
+  flex-direction: row;
+}
+.box-flex{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.box_left{
+  width: 360rpx;
+}
+.box_right{
+  width: 360rpx;
+}
+.small-icon{
+  height: 50rpx;
+  width: 50rpx;
+  margin-top: 50rpx;
+  margin-bottom: 20rpx;
+}
+.box-middle{
+  height: 240rpx;
+  width: 1rpx;
+  background: #ccc;
+  margin-top: 30rpx;
+}
+.txt-1{
+  margin-bottom: 20rpx;
+  font-weight: 700;
+}
+.txt-2{
+  font-size:10px;
+}
+.my-points{
+  margin-left: 15rpx;
+  width: 720rpx;
+  height: 150rpx;
+  border-radius: 5px;
+  background: #fff;
+  margin-top: 280rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30rpx;
+}
+.my-points-left{
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 30rpx;
+}
+.my-points-right{
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-right: 30rpx;
+}
+.points{
+  margin-bottom: 20rpx;
+  font-weight: 700;
+}
+.point-icon{
+  height: 50rpx;
+  width: 50rpx;
+  margin-bottom: 20rpx;
+}
+.sign{
+  font-size:10px;
+}
+.yuan{
+  font-size:10px;
+}
+.tea-box{
+  border-radius: 5px;
+  width: 720rpx;
+  height: 250rpx;
+  margin-left: 15rpx;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30rpx;
+}
+.tea-left{
+  width: 300rpx;
+  height: 250rpx;
+  background: #fff;
+  border-radius: 5px;
+}
+.tea-middle{
+  width: 180rpx;
+  height: 250rpx;
+  background: #fff;
+  border-radius: 5px;
+}
+.tea-right{
+  width: 180rpx;
+  height: 250rpx;
+  background: #fff;
+  border-radius: 5px;
+}
+.new{
+  background: #fff;
+  width: 720rpx;
+  height: 300rpx;
+  border-radius: 5px;
+  margin-left: 15rpx;
+  margin-bottom: 20rpx;
+  padding-left: 30rpx;
+  padding-top: 20rpx;
+}
+.new-txt{
+  font-size:12px;
+  font-weight: 700;
+}
+.new-img{
+  width: 680rpx;
+  height: 220rpx;
+  margin-top: 20rpx;
+}

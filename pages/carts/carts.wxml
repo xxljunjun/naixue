@@ -1,0 +1,35 @@
+<!--pages/carts/carts.wxml-->
+<view class="carts">
+  <view class="title">奈雪的茶</view>
+  <!-- 地理位置 -->
+  <view class="location">
+    <view class="location-left">
+      <view>民治1881MALL大厦店></view>
+      <view>距离您698m</view>
+    </view>
+    <view class="location-right">
+      <text class="txt">自取</text>
+      <text>外卖</text>
+    </view>
+  </view>
+  <!-- 邀请好友喝茶 -->
+  <view class="tea">
+    <view class="tea-txt">邀请好友喝茶,享买茶送包</view>
+    <view class="right-tea">></view>
+  </view>
+  <!-- 选择商品 -->
+  <view class="content">
+    <view class="content-left">
+      <view wx:for="{{shopping}}" wx:key="id" bindtap="clickshop" id="{{item.id}}" class="{{chooseshop ==item.id?'shop-item whitebox':'shop-item'}}">
+        {{item.data}}
+      </view>
+    </view>
+    <view class="content-right">
+      222222222
+    </view>
+  </view>
+  <!-- 休息 -->
+  <view class="time-txt">
+    休息中（营业时间：10:00-22:30）
+  </view>
+</view>

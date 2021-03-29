@@ -1,0 +1,77 @@
+/* pages/carts/carts.wxss */
+page{
+	background: #fff;
+	font-size: 14px;
+}
+.title{
+	text-align: center;
+	margin-top: 110rpx;
+	margin-bottom: 50rpx;
+}
+.location{
+	width: 750rpx;
+	height: 100rpx;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.location-left{
+	margin-left: 20rpx;
+}
+.location-right{
+	margin-right: 20rpx;
+	width: 160rpx;
+	height: 60rpx;
+	background: #eee;
+	border-radius: 20px;
+	line-height: 60rpx;
+}
+.txt{
+	margin-left: 20rpx;
+	margin-right: 10rpx;
+}
+.tea{
+	background: #eee;
+	width: 750rpx;
+	height: 100rpx;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.tea-txt{
+	margin-left: 20rpx;
+}
+.right-tea{
+	margin-right: 20rpx;
+}
+.content{
+	display: flex;
+	height: 950rpx;
+}
+.content-left{
+	width: 200rpx;
+	background: #ccc;
+	height: 950rpx;
+	overflow: auto;
+}
+.content-right{
+	width: 550rpx;
+	background: #fff;
+	height: 950rpx;
+	overflow: auto;
+}
+.shop-item{
+	width: 200rpx;
+	height: 100rpx;
+	text-align: center;
+	line-height: 100rpx;
+}
+.time-txt{
+	height: 100rpx;
+	background: #e1e1e1;
+	text-align: center;
+	line-height: 100rpx;
+}
+.whitebox{
+	background: #fff;
+}

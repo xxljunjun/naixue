@@ -1,0 +1,59 @@
+<!--pages/mine/mine.wxml-->
+<view class="mine">
+  <view class="back-box">
+    <cover-image src="../../images/head.jpg" class="back-img"></cover-image>
+    <view class="yuan">
+      会员码
+    </view>
+  </view>
+  <!-- 个人信息 -->
+  <view class="user-info">
+    
+  </view>
+  <!-- 我的服务 -->
+  <view class="my-serve">
+    <view class="serve-txt">
+      我的服务
+    </view>
+    <view class="row">
+      <view class="item">
+        <cover-image src="../../images/activity-rule-icon1.png" class="item-img"></cover-image>
+        邀请有礼
+      </view>
+      <view class="item">
+        <cover-image src="../../images/activity-rule-icon1.png" class="item-img"></cover-image>
+        邀请有礼
+      </view>
+      <view class="item">
+        <cover-image src="../../images/activity-rule-icon1.png" class="item-img"></cover-image>
+        邀请有礼
+      </view>
+      <view class="item">
+        <cover-image src="../../images/activity-rule-icon1.png" class="item-img"></cover-image>
+        邀请有礼
+      </view>
+    </view>
+    <view class="row">
+      <view class="item">
+        <cover-image src="../../images/activity-rule-icon1.png" class="item-img"></cover-image>
+        邀请有礼
+      </view>
+      <view class="item">
+        <cover-image src="../../images/activity-rule-icon1.png" class="item-img"></cover-image>
+        邀请有礼
+      </view>
+      <view class="item">
+        <cover-image src="../../images/activity-rule-icon1.png" class="item-img"></cover-image>
+        邀请有礼
+      </view>
+      <view class="item">
+        <cover-image src="../../images/activity-rule-icon1.png" class="item-img"></cover-image>
+        邀请有礼
+      </view>
+    </view>
+  </view>
+  <view class="nai-txt">
+    会员卡适用于奈雪的茶和奈雪酒屋指定范围
+  </view>
+</view>
+
