@@ -1,0 +1,9 @@
+<!-- 存放模板文件 -->
+<template name="head-back">
+  <view class="head-back" bindtap='onclick'>
+    <view class="txt">
+      <text class="txt-1">></text>
+      <text class="txt-2">{{text}}</text>
+    </view>
+  </view>
+</template>

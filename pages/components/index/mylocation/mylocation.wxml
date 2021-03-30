@@ -1,0 +1,8 @@
+<!--pages/mylocation/mylocation.wxml-->
+<import src="../../template/template.wxml"/>
+<view class="location">
+  <view bindtap="goback">
+    <template is="head-back" data="{{text: '我的地址'}}"/>
+  </view>
+</view>
+  

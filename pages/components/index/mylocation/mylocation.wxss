@@ -1,0 +1,6 @@
+/* pages/mylocation/mylocation.wxss */
+@import "../../template/template.wxss";
+page{
+  background: #eee;
+  position: relative;
+}

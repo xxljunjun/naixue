@@ -1,0 +1,8 @@
+<!--pages/components/index/newthiing/newthiing.wxml-->
+<import src="../../template/template.wxml"/>
+<view class="newthing">
+  <!-- head -->
+  <view bindtap="goback">
+    <template is="head-back" data="{{text: '我的会员新鲜事'}}"/>
+  </view>
+</view>

@@ -1,0 +1,14 @@
+.head-back{
+  height: 180rpx;
+  background: #fff;
+  width: 750rpx;
+  position: relative;
+}
+.txt{
+  position: absolute;
+  bottom: 30rpx;
+}
+.txt-1{
+  margin-right: 20rpx;
+  margin-left: 10rpx;
+}
