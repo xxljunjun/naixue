@@ -24,7 +24,7 @@
       <view class="txt-2">预约点单，到店自取</view>
     </view>
     <view class="box-middle"></view>
-    <view class="box_right box-flex">
+    <view class="box_right box-flex" bindtap="gotolocation">
       <cover-image src="../../images/activity-rule-icon2.png" class="small-icon"></cover-image>
       <view class="txt-1">外卖</view>
       <view class="txt-2">外卖下单，快速送达</view>
@@ -55,7 +55,7 @@
   </view>
   <!-- 会员新鲜事 -->
   <view class="new">
-    <view class="new-txt">会员新鲜事 ></view>
-    <cover-image src="../../images/head.jpg" class="new-img"></cover-image>
+    <view class="new-txt" bindtap="gotonewthing">会员新鲜事 ></view>
+    <cover-image src="../../images/head.jpg" class="new-img" bindtap="gotonewdetail"></cover-image>
   </view>
 </view>

@@ -1,1 +1,6 @@
 /* pages/components/index/members/members.wxss */
+@import "../../template/template.wxss";
+page{
+  background: #eee;
+  position: relative;
+}

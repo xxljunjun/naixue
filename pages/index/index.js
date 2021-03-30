@@ -21,6 +21,21 @@ Page({
       url: "/pages/components/index/gards/gards",
     })
   },
+  gotolocation(){
+    wx.navigateTo({
+      url: "/pages/components/index/mylocation/mylocation",
+    })
+  },
+  gotonewthing(){
+    wx.navigateTo({
+      url:"/pages/components/index/newthiing/newthiing",
+    })
+  },
+  gotonewdetail(){
+    wx.navigateTo({
+      url:"/pages/components/index/newdetail/newdetail",
+    })
+  },
   onLoad: function () {
     var that = this; 
     var data = {

@@ -6,7 +6,10 @@
     "pages/carts/carts",
     "pages/mine/mine",
     "pages/components/index/gards/gards",
-    "pages/components/index/members/members"
+    "pages/components/index/members/members",
+    "pages/components/index/mylocation/mylocation",
+    "pages/components/index/newthiing/newthiing",
+    "pages/components/index/newdetail/newdetail"
   ],
   "window": {
     "navigationBarBackgroundColor": "#ccc",

@@ -1,2 +1,8 @@
 <!--pages/components/index/members/members.wxml-->
-<text>pages/components/index/members/members.wxml</text>
+<import src="../../template/template.wxml"/>
+<view class="members">
+  <!-- head -->
+  <view bindtap="goback">
+    <template is="head-back" data="{{text: '我的会员'}}"/>
+  </view>
+</view>

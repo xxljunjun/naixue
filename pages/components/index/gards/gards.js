@@ -1,6 +1,9 @@
 // pages/components/index/gards.js
+import template from '../../template/template.js';
 Page({
-
+  goback(e){
+    template.onclick(e)
+  },
   /**
    * 页面的初始数据
    */
